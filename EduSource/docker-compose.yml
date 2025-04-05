@@ -1,0 +1,6 @@
+services:
+  edusource.api:
+    image: ${DOCKER_REGISTRY-}edusourceapi
+    build:
+      context: .
+      dockerfile: src/EduSource.API/Dockerfile

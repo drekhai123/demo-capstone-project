@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.1.38" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EduSource.Application\EduSource.Application.csproj" />
+    <ProjectReference Include="..\EduSource.Contract\EduSource.Contract.csproj" />
+    <ProjectReference Include="..\EduSource.Infrastructure\EduSource.Infrastructure.csproj" />
+    <ProjectReference Include="..\EduSource.Persistance\EduSource.Persistance.csproj" />
+  </ItemGroup>
+
+</Project>
